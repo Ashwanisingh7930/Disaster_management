@@ -1,0 +1,173 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Navigation styles */
+  nav {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  /* Main content container styles */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+  }
+  
+  /* Section title styles */
+  h2 {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  /* Card styles */
+  .card {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card h3 {
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .card p {
+    margin: 10px;
+    flex-grow: 1;
+    text-align: justify;
+  }
+  
+  /* Button styles */
+  .btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #555;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Video background styles */
+  video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    filter: brightness(70%);
+  }
+  
+  /* News box styles */
+  .news-box {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .news-box img {
+    border-radius: 5px;
+    float:
+    14px;
+line-height: 1.5;
+color: #333333;
+margin-bottom: 10px;
+}
+
+.news-box a {
+color: #0077cc;
+text-decoration: none;
+}
+
+.news-box a:hover {
+text-decoration: underline;
+}
+
+.news-box .read-more {
+display: inline-block;
+padding: 5px 10px;
+background-color: #0077cc;
+color: #ffffff;
+border-radius: 4px;
+text-decoration: none;
+margin-top: 10px;
+}
+
+.news-box .read-more:hover {
+background-color: #005ea6;
+}  

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Emergency - Disaster Management Site</title>
+	<style>
+		video {
+			position: fixed;
+			top: 0;
+			left: 0;
+			min-width: 100%;
+			min-height: 100%;
+			z-index: -1;
+		}
+		.container {
+			padding: 20px;
+			background-color: rgba(255, 255, 255, 0.8);
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			max-width: 800px;
+			margin: auto;
+			margin-top: 50px;
+		}
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		
+		.button {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #FF8C00;
+			color: #fff;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 5px;
+			text-decoration: none;
+			margin-top: 20px;
+			transition: all 0.3s ease;
+		}
+		
+		.button:hover {
+			background-color: #FFA500;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+		}
+	</style>
+</head>
+<body>
+	<video autoplay muted loop>
+		<source src="pexels-bithin-raj-1203858-1280x720-30fps.mp4" type="video/mp4">
+	</video>
+	<div class="container">
+		<h1>Emergency Information</h1>
+		<p>Here you can find important information and resources in case of an emergency or disaster.</p>
+		<p>If you need immediate assistance, please call 112.</p>
+		<a href="#" class="button">Learn More</a>
+	</div>
+</body>
+</html>
